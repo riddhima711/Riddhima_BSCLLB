@@ -7,9 +7,8 @@ void main()
     {
         printf("Enter principle, rate of interest, time(for set %d):\n",i);
         scanf("%f%f%f",&p,&r,&t);
-        {
-            si=(p*r*t)/100
-        }
+            si=(p*r*t)/100;
+            printf("Simple Interest for set %d = %.2f\n", i, si);
     }
     return 0;
 }
